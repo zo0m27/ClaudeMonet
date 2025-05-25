@@ -487,6 +487,142 @@ position: relative;
     font-weight: 400;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .card,
+    .menuu-item {
+        width: 350px;
+    }
+
+    .header-title {
+        font-size: 60px;
+    }
+
+    .header-subtitle {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    .container {
+        margin: 0 30px;
+    }
+
+    .header-line,
+    .cards-holder,
+    .history-holder,
+    .block-holder,
+    .menuu-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card,
+    .menuu-item {
+        width: 45%;
+        margin: 15px;
+    }
+
+    .history-img img {
+        max-width: 100%;
+        position: static;
+    }
+
+    .header-title {
+        font-size: 44px;
+        margin-top: 200px;
+    }
+
+    .header-subtitle {
+        font-size: 70px;
+    }
+
+    .burger-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .burger-text {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .header-line,
+    .cards-holder,
+    .history-holder,
+    .block-holder,
+    .burgers,
+    .menuu-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card,
+    .menuu-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .history-img img {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .header-title {
+        font-size: 32px;
+        margin-top: 130px;
+    }
+
+    .header-subtitle {
+        font-size: 50px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .phone-holder,
+    .header-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .burger-item {
+        flex-direction: column;
+    }
+
+    .burger-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .left-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .left-text {
+        font-size: 16px;
+    }
+
+    .right-btn {
+        padding: 12px 20px;
+    }
+}
+
 
 
 
